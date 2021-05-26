@@ -1,1 +1,0 @@
-# homegraph-inspect

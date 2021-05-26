@@ -2,9 +2,9 @@
   "name": "homegraph-inspect",
   "version": "1.0.0",
   "description": "Homegraph inspection tool for report state",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
+  "main": "lib/index.js",
+  "bin": {
+    "homegraph-inspect": "./bin/index.js"
   },
   "dependencies": {
     "chalk": "^2.4.2",
@@ -14,8 +14,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./lib"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",

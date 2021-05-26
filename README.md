@@ -1,14 +1,20 @@
 # HOMEGRAPH-INSPECT
 
-**Service account keys** 
+## Installation
 
-Service account key for authentication to Google Homegraph should be placed in a folder with the following structure:
-
-```
-/service-account-keys
-    service-account-key-dev.json
-    service-account-key-live.json
-    service-account-key-qa.json
+Clone this project and install it globally
+```bash
+npm i -g .
 ```
 
-Service account keys for each environment can be created by following [this guide](https://developers.google.com/assistant/smarthome/develop/report-state#service-account-key). 
+## Usage
+
+```bash
+homegraph-inspect <serviceAccountKeyFile> <agentUserId>
+```
+
+Where `serviceAccountKeyFile` is the path to the service account key and `agentUserId` is the Google user id.
+
+## Service account keys
+
+Service account key for authentication to Google Homegraph is needed for this tool to work. Service account keys can be created by following [this guide](https://developers.google.com/assistant/smarthome/develop/report-state#service-account-key). 

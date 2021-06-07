@@ -7,8 +7,8 @@
     "homegraph-inspect": "./bin/index.js"
   },
   "dependencies": {
-    "chalk": "^2.4.2",
-    "googleapis": "^74.0.0",
+    "@googleapis/homegraph": "^2.0.0",
+    "chalk": "^4.1.1",
     "json-colorizer": "^2.2.2",
     "ora": "^5.4.0"
   },

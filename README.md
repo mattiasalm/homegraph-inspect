@@ -13,7 +13,7 @@ npm i -g .
 homegraph-inspect <serviceAccountKeyFile> <agentUserId>
 ```
 
-Where `serviceAccountKeyFile` is the path to the service account key and `agentUserId` is the Google user id.
+Where `serviceAccountKeyFile` is the path to the service account key json-file and `agentUserId` is the Google user id.
 
 ## Service account keys
 
